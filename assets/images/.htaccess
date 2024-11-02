@@ -1,0 +1,27 @@
+# Protect Files
+<Files *>
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Allow Images
+<FilesMatch "\.(jpg|jpeg|png)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Protect Directory Browsing
+Options -Indexes
+
+# Protect From Script Execution
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|phps|phar|pl|py|jsp|asp|htm|html|shtml|sh|cgi)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Additional Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>

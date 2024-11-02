@@ -1,0 +1,118 @@
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 var(--space-sm);
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--text-primary);
+}
+
+h1 {
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--space-lg);
+}
+
+h2 {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-md);
+}
+
+h3 {
+    font-size: var(--font-size-xl);
+}
+
+h4 {
+    font-size: var(--font-size-lg);
+}
+
+h5 {
+    font-size: var(--font-size-base);
+}
+
+h6 {
+    font-size: var(--font-size-sm);
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: var(--space-sm);
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+a:hover {
+    color: var(--primary-dark);
+}
+
+/* Lists */
+ul, ol {
+    margin: 0 0 var(--space-md) var(--space-md);
+}
+
+li {
+    margin-bottom: var(--space-xs);
+}
+
+/* Text Styles */
+.text-primary {
+    color: var(--primary);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+.text-small {
+    font-size: var(--font-size-sm);
+}
+
+.text-large {
+    font-size: var(--font-size-lg);
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: var(--font-size-2xl);
+    }
+
+    h2 {
+        font-size: var(--font-size-xl);
+    }
+
+    h3 {
+        font-size: var(--font-size-lg);
+    }
+}
+
+/* RTL Specific */
+[dir="rtl"] {
+    .text-right {
+        text-align: left;
+    }
+
+    .text-left {
+        text-align: right;
+    }
+}

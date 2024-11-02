@@ -1,0 +1,19 @@
+/* Base */
+@import 'base/variables.css';
+@import 'base/reset.css';
+
+/* Components */
+@import 'components/buttons.css';
+@import 'components/loader.css';
+@import 'components/progress-bar.css';
+
+/* Layouts */
+@import 'layouts/checkout.css';
+@import 'layouts/thank-you.css';
+
+/* Dynamic CSS - יוזרק דרך PHP */
+.story-book-container {
+    /* Container styles */
+    font-family: 'YehudaCLM', sans-serif;
+    direction: rtl;
+}

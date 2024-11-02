@@ -1,0 +1,318 @@
+/* Admin Panel Styles for Story Book System */
+
+/* Dashboard Layout */
+.story-book-dashboard {
+    max-width: 1400px;
+    margin: 20px;
+}
+
+/* Stats Grid */
+.dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0 30px;
+}
+
+.stat-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+    transform: translateY(-2px);
+}
+
+.stat-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #cd9fa4;
+    margin: 15px 0;
+}
+
+.view-all {
+    color: #666;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.view-all:hover {
+    color: #cd9fa4;
+}
+
+/* Recent Orders Table */
+.recent-orders {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.wp-list-table {
+    border: none !important;
+}
+
+.wp-list-table th {
+    font-weight: 600;
+}
+
+.wp-list-table td {
+    vertical-align: middle;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status-new {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.status-design {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.status-review {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-ready {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-printing {
+    background: #e2e3e5;
+    color: #383d41;
+}
+
+/* Quick Actions */
+.quick-actions {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Order Details Meta Box */
+.story-book-order-details {
+    margin: -6px -12px -12px -12px;
+    background: white;
+}
+
+.book-details {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.book-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.book-details th {
+    width: 140px;
+    text-align: right;
+    padding: 8px;
+    color: #666;
+}
+
+.book-details td {
+    padding: 8px;
+}
+
+/* Files Grid */
+.files-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.file-item {
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.file-preview {
+    position: relative;
+    padding-top: 100%;
+}
+
+.file-preview img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.file-info {
+    padding: 8px;
+    background: white;
+}
+
+.file-name {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Order Actions */
+.order-actions {
+    padding: 20px;
+    background: #f8f9fa;
+    border-top: 1px solid #eee;
+}
+
+.order-status {
+    min-width: 150px;
+}
+
+/* Filters */
+.tablenav .actions {
+    padding: 8px 0;
+}
+
+.tablenav select {
+    margin: 0 8px 0 0;
+}
+
+/* Settings Page */
+.story-book-settings {
+    max-width: 800px;
+    margin: 20px;
+}
+
+.settings-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.form-table {
+    margin-top: 0;
+}
+
+.form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+}
+
+/* Custom Buttons */
+.button.story-book {
+    background: #cd9fa4;
+    border-color: #cd9fa4;
+    color: white;
+}
+
+.button.story-book:hover {
+    background: #c39298;
+    border-color: #c39298;
+    color: white;
+}
+
+/* Loading States */
+.loading::after {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border: 2px solid;
+    border-right-color: transparent;
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: spin 0.75s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .dashboard-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .files-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+    
+    .form-table th {
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+/* RTL Support */
+[dir="rtl"] {
+    .book-details th {
+        text-align: right;
+    }
+    
+    .status-badge {
+        margin-left: 8px;
+        margin-right: 0;
+    }
+    
+    .tablenav select {
+        margin: 0 0 0 8px;
+    }
+}
+
+/* Enhanced Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .stat-box,
+    .loading::after {
+        transition: none;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    .status-badge {
+        border: 1px solid currentColor;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .story-book-dashboard {
+        margin: 0;
+    }
+    
+    .quick-actions,
+    .action-buttons,
+    .order-actions {
+        display: none;
+    }
+}

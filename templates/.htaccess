@@ -1,0 +1,8 @@
+# Protect Template Files
+<FilesMatch "\.php$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Protect Directory
+Options -Indexes

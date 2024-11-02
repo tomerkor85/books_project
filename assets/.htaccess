@@ -1,0 +1,14 @@
+# Protect Directory
+Options -Indexes
+
+# Allow Access to CSS, JS, Images
+<FilesMatch "\.(css|js|jpg|jpeg|png|gif|svg|woff|woff2)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Block Access to Other Files
+<FilesMatch "^(?!(.*\.(css|js|jpg|jpeg|png|gif|svg|woff|woff2)$)).*$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
