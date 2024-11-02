@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Story Book 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/custom-story-book\n"
+"POT-Creation-Date: 2024-01-28 12:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-28 12:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: custom-story-book\n"
+
+#: includes/class-story-book-admin.php:45
+msgid "ניהול ספרים מותאמים"
+msgstr "ניהול ספרים מותאמים"
+
+#: includes/class-story-book-admin.php:46
+msgid "ספרים מותאמים"
+msgstr "ספרים מותאמים"
+
+#: includes/class-story-book-admin.php:65
+msgid "הגדרות"
+msgstr "הגדרות"
+
+#: includes/class-story-book-upload-handler.php:89
+msgid "No files were uploaded"
+msgstr "לא הועלו קבצים"
+
+#: includes/class-story-book-upload-handler.php:95
+#, php-format
+msgid "Maximum %d files allowed"
+msgstr "ניתן להעלות מקסימום %d קבצים"
+
+#: includes/class-story-book-upload-handler.php:123
+msgid "Failed to create upload directory"
+msgstr "נכשלה יצירת תיקיית העלאה"
+
+#: includes/class-story-book-woo.php:156
+msgid "הזמנה חדשה"
+msgstr "הזמנה חדשה"
+
+#: includes/class-story-book-woo.php:157
+msgid "בעיצוב"
+msgstr "בעיצוב"
+
+#: includes/class-story-book-woo.php:158
+msgid "בבדיקה"
+msgstr "בבדיקה"
+
+#: includes/class-story-book-woo.php:159
+msgid "מוכן להדפסה"
+msgstr "מוכן להדפסה"
+
+#: includes/class-story-book-woo.php:160
+msgid "בהדפסה"
+msgstr "בהדפסה"
+
+#: templates/forms/step-1-upload.php:8
+msgid "העלאת תמונות"
+msgstr "העלאת תמונות"
+
+#: templates/forms/step-1-upload.php:15
+msgid "גררו תמונות לכאן או לחצו לבחירה"
+msgstr "גררו תמונות לכאן או לחצו לבחירה"
+
+#: templates/forms/step-1-upload.php:24
+msgid "תמונות נבחרו"
+msgstr "תמונות נבחרו"
+
+#: templates/forms/step-2-details.php:8
+msgid "פרטי הילד/ה"
+msgstr "פרטי הילד/ה"
+
+#: templates/forms/step-2-details.php:15
+msgid "שם הילד/ה"
+msgstr "שם הילד/ה"
+
+#: templates/forms/step-2-details.php:21
+msgid "שם באנגלית"
+msgstr "שם באנגלית"
+
+#: templates/forms/step-2-details.php:27
+msgid "מגדר"
+msgstr "מגדר"
+
+#: templates/forms/step-2-details.php:29
+msgid "ילד"
+msgstr "ילד"
+
+#: templates/forms/step-2-details.php:30
+msgid "ילדה"
+msgstr "ילדה"
+
+#: templates/forms/step-2-details.php:36
+msgid "גיל"
+msgstr "גיל"
+
+#: templates/forms/step-2-details.php:42
+msgid "סוג ספר"
+msgstr "סוג ספר"
+
+#: templates/forms/step-2-details.php:44
+msgid "ספר ריאליסטי"
+msgstr "ספר ריאליסטי"
+
+#: templates/forms/step-2-details.php:45
+msgid "ספר מצוייר"
+msgstr "ספר מצוייר"
+
+#: templates/forms/step-2-details.php:51
+msgid "ספרו לנו על הילד/ה"
+msgstr "ספרו לנו על הילד/ה"
+
+#: templates/admin/dashboard.php:12
+msgid "הזמנות חדשות"
+msgstr "הזמנות חדשות"
+
+#: templates/admin/dashboard.php:21
+msgid "צפה בהזמנות"
+msgstr "צפה בהזמנות"
+
+#: templates/admin/orders.php:89
+msgid "חיפוש הזמנות..."
+msgstr "חיפוש הזמנות..."
+
+#: templates/admin/orders.php:93
+msgid "סנן"
+msgstr "סנן"
+
+#: templates/admin/orders.php:98
+msgid "נקה סינון"
+msgstr "נקה סינון"
+
+#: templates/emails/admin-new-order.php:12
+msgid "התקבלה הזמנה חדשה לספר מותאם אישית!"
+msgstr "התקבלה הזמנה חדשה לספר מותאם אישית!"
+
+#: templates/emails/status-update.php:12
+msgid "עדכון סטטוס להזמנה"
+msgstr "עדכון סטטוס להזמנה"
+
+# Validation Messages
+msgid "שדה חובה"
+msgstr "שדה חובה"
+
+msgid "אנא הזן ערך חוקי"
+msgstr "אנא הזן ערך חוקי"
+
+msgid "אנא הזן שם באנגלית בלבד"
+msgstr "אנא הזן שם באנגלית בלבד"
+
+msgid "הגיל חייב להיות בין 0 ל-18"
+msgstr "הגיל חייב להיות בין 0 ל-18"
+
+# Error Messages
+msgid "אירעה שגיאה"
+msgstr "אירעה שגיאה"
+
+msgid "אנא נסה שנית"
+msgstr "אנא נסה שנית"
+
+msgid "הקובץ גדול מדי"
+msgstr "הקובץ גדול מדי"
+
+msgid "סוג קובץ לא נתמך"
+msgstr "סוג קובץ לא נתמך"
+
+# Success Messages
+msgid "נשמר בהצלחה"
+msgstr "נשמר בהצלחה"
+
+msgid "הקבצים הועלו בהצלחה"
+msgstr "הקבצים הועלו בהצלחה"
+
+msgid "ההזמנה התקבלה בהצלחה"
+msgstr "ההזמנה התקבלה בהצלחה"
+
+# Button Labels
+msgid "המשך"
+msgstr "המשך"
+
+msgid "חזור"
+msgstr "חזור"
+
+msgid "שלח"
+msgstr "שלח"
+
+msgid "בטל"
+msgstr "בטל"
+
+msgid "סגור"
+msgstr "סגור"
+
+# Admin Menu
+msgid "דשבורד"
+msgstr "דשבורד"
+
+msgid "הזמנות"
+msgstr "הזמנות"
+
+msgid "דוחות"
+msgstr "דוחות"
+
+# Order Statuses
+msgid "ממתין לאישור"
+msgstr "ממתין לאישור"
+
+msgid "בתהליך עיצוב"
+msgstr "בתהליך עיצוב"
+
+msgid "בבדיקה סופית"
+msgstr "בבדיקה סופית"
+
+msgid "מוכן להדפסה"
+msgstr "מוכן להדפסה"
+
+msgid "בתהליך הדפסה"
+msgstr "בתהליך הדפסה"
+
+msgid "הושלם"
+msgstr "הושלם"
+
+msgid "בוטל"
+msgstr "בוטל"
+
+# Settings
+msgid "הגדרות כלליות"
+msgstr "הגדרות כלליות"
+
+msgid "הגדרות תשלום"
+msgstr "הגדרות תשלום"
+
+msgid "הגדרות מייל"
+msgstr "הגדרות מייל"
+
+msgid "הגדרות העלאה"
+msgstr "הגדרות העלאה"
+
+# Notifications
+msgid "הודעה נשלחה"
+msgstr "הודעה נשלחה"
+
+msgid "הסטטוס עודכן"
+msgstr "הסטטוס עודכן"
+
+msgid "ההגדרות נשמרו"
+msgstr "ההגדרות נשמרו"

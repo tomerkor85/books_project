@@ -1,0 +1,47 @@
+/* Import all components */
+@import 'base.css';
+@import 'components/typography.css';
+@import 'components/buttons.css';
+@import 'components/forms.css';
+@import 'components/loader.css';
+@import 'components/progress-bar.css';
+
+/* Import layouts */
+@import 'layouts/checkout.css';
+@import 'layouts/thankyou.css';
+@import 'layouts/upload-form.css';
+
+/* Global custom properties */
+:root {
+    /* Custom properties if needed */
+}
+
+/* Global styles */
+body {
+    overflow-x: hidden;
+}
+
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+    /* RTL specific overrides */
+}
+
+/* Print styles */
+@media print {
+    /* Print specific styles */
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    /* Dark mode styles if needed */
+}

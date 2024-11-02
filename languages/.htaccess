@@ -1,0 +1,8 @@
+# Protect Language Files
+<FilesMatch "\.(po|mo|pot)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Protect Directory
+Options -Indexes
